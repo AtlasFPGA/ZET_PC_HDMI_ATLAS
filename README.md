@@ -6,6 +6,9 @@ Mostramos los fallos en tres tipos de bloques verilog donde se instancian memori
 
 Info (276007): RAM logic "zet:zet|zet_core:core|zet_micro_data:micro_data|zet_micro_rom:micro_rom|rom" is uninferred due to asynchronous read logic
 
+
+``` 
+//
 `include "defines.v"
 
 // altera message_off 10030
@@ -26,11 +29,14 @@ module zet_micro_rom (
   // Behaviour
   initial $readmemb("micro_rom.dat", rom);
 endmodule
-
+//
+``` 
+        
 este sería  uno de los ejemplos y no se usa una señal de reloj...
 
 Info (276007): RAM logic "bootrom:bootrom|rom" is uninferred due to asynchronous read logic
-
+``` 
+//
 module bootrom (
     input clk,
     input rst,
@@ -62,11 +68,14 @@ module bootrom (
   initial $readmemh("bootrom.dat", rom);
 
 endmodule
-
+//
+``` 
 en esta si se tiene clk pero no se usa en el módulo en verilog
 
 Info (276007): RAM logic "fmlbrg:fmlbrg|fmlbrg_datamem:datamem|ram0" is uninferred due to asynchronous read logic
 
+``` 
+//
 module fmlbrg_datamem #(
   parameter depth = 8
 ) (
@@ -133,5 +142,6 @@ assign dout = {ram1do, ram0do};
 assign do2 = {ram1do2, ram0do2};
 
 endmodule
-
+//
+``` 
 y en esta ultima si se pasa el reloj y lo usa pero aún así lo considera asíncrona.
