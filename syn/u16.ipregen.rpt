@@ -1,0 +1,69 @@
+IP Upgrade report for u16
+Sat Mar 25 17:03:57 2023
+Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. IP Upgrade Summary
+  3. Successfully Upgraded IP Components
+  4. IP Upgrade Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++----------------------------------------------------------------------------+
+; IP Upgrade Summary                                                         ;
++------------------------------+---------------------------------------------+
+; IP Components Upgrade Status ; Passed - Sat Mar 25 17:03:57 2023           ;
+; Quartus Prime Version        ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
+; Revision Name                ; u16                                         ;
+; Top-level Entity Name        ; kotku                                       ;
+; Family                       ; Cyclone 10 LP                               ;
++------------------------------+---------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------+
+; Successfully Upgraded IP Components                                                                                                               ;
++--------------+----------------+---------+-------------------------------+-------------------------------+-------------------------------+---------+
+; Entity Name  ; Component Name ; Version ; Original Source File          ; Generation File Path          ; New Source File               ; Message ;
++--------------+----------------+---------+-------------------------------+-------------------------------+-------------------------------+---------+
+; altddio_out1 ; ALTDDIO_OUT    ; 15.0    ; ../rtl/hdmi2/altddio_out1.qip ; ../rtl/hdmi2/altddio_out1.vhd ; ../rtl/hdmi2/altddio_out1.qip ;         ;
++--------------+----------------+---------+-------------------------------+-------------------------------+-------------------------------+---------+
+
+
++---------------------+
+; IP Upgrade Messages ;
++---------------------+
+Info (11902): Backing up file "../rtl/hdmi2/altddio_out1.vhd" to "../rtl/hdmi2/altddio_out1.BAK.vhd"
+Info (11837): Started upgrading IP component ALTDDIO_OUT with file "../rtl/hdmi2/altddio_out1.vhd"
+Info (11131): Completed upgrading IP component ALTDDIO_OUT with file "../rtl/hdmi2/altddio_out1.vhd"
+Info (23030): Evaluation of Tcl script /intelFPGA_lite/20.1/quartus/common/tcl/internal/ip_regen/ip_regen.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 601 megabytes
+    Info: Processing ended: Sat Mar 25 17:03:57 2023
+    Info: Elapsed time: 00:00:16
+    Info: Total CPU time (on all processors): 00:00:40
+
+
