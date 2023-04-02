@@ -6,7 +6,7 @@ https://ch.linkedin.com/in/zeusgm
 
 EL core es un core adelantado a su época dado que se creó hace más de 10 años con una estructura de wishbone lo que lo hace un core de pc totamente modular,
 y tenía una web asociada a Él, buscando por zet zeus alucina,
-se pueden encontrar aún las copias que quedaron tanto del foro como de la páquina web principal del mismo.
+se pueden encontrar aún las copias que quedaron tanto del foro como de la páguina web principal del mismo.
 
 
 El repositorio principal es:
