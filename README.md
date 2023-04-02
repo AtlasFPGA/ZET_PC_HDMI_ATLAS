@@ -1,4 +1,25 @@
 # ZET_PC_HDMI_ATLAS
+
+ZET de Zeus Gómez Marmolejo GPL V3.
+
+https://ch.linkedin.com/in/zeusgm
+
+EL core es un core adelantado a su época dado que se creó hace más de 10 años con una estructura de wishbone lo que lo hace un core de pc totamente modular,
+y tenía una web asociada a el buscando por zet zeus alucina,
+se pueden buscar aún las copias que quedaron tanto del foro como de la páquina web principal del mismo.
+
+
+El repositorio principal es:
+https://github.com/marmolejo
+El core se ha adaptado de los siguientes fuentes:
+https://github.com/mvvproject/ReVerSE-U ... er/u16_zet
+
+Fuentes usan la licencia GPL3
+
+
+
+
+
 Falla la instancias de memoria en quartus se ha usado un quartus 20.1 lite, pero si es cierto que con el mismo codigo en un quartus bastante más antiguo no se ha dado caso de fallo en las instancias de memoria asincronas, pero a partir del 20.1 que es principalemnte el que uso a dado errores de sintesis en la generación de memorias indicando que son asincronas.
 
 
