@@ -10,14 +10,22 @@ se pueden buscar aún las copias que quedaron tanto del foro como de la páquina
 
 
 El repositorio principal es:
+
 https://github.com/marmolejo
+
 El core se ha adaptado de los siguientes fuentes:
-https://github.com/mvvproject/ReVerSE-U ... er/u16_zet
+
+https://github.com/mvvproject/ReVerSE-U16/tree/master/u16_zet
 
 Fuentes usan la licencia GPL3
 
+![Posición relativa de las roms dentro del JIC del ZET](https://github.com/AtlasFPGA/ZET_PC_HDMI_ATLAS/blob/main/flash/JIC.JPG)
+
+Aquí se puede ver el vídeo en una placa Terasic DE1:
 
 
+
+[![Zet en acción](https://img.youtube.com/vi/xLmnIhynMUg/0.jpg)](https://www.youtube.com/watch?v=xLmnIhynMUg)
 
 
 Falla la instancias de memoria en quartus se ha usado un quartus 20.1 lite, pero si es cierto que con el mismo codigo en un quartus bastante más antiguo no se ha dado caso de fallo en las instancias de memoria asincronas, pero a partir del 20.1 que es principalemnte el que uso a dado errores de sintesis en la generación de memorias indicando que son asincronas.
