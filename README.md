@@ -21,6 +21,15 @@ Fuentes usan la licencia GPL3
 
 ![Posición relativa de las roms dentro del JIC del ZET](https://github.com/AtlasFPGA/ZET_PC_HDMI_ATLAS/blob/main/flash/JIC.JPG)
 
+
+Una de los grandes avances del ZET que supera a los cores actuales es que no usa para las roms en este caso de tratarse de un core de PC,
+La bios de sistema y la bios de la gráfica, no las aloja en el interior de la FPGA, sino que las aloja de forma permamente en el fichero JIC.
+Eso minimiza el uso de BRAM de la implementación del ZET_PC,
+posibilitando el tener más memoria BRAM disponible que en este caso sería aprobechada para tener un modo vga recreado en su totalidad.
+
+En la mayoría de los cores se alojan las roms en el interior de la fpga, y es un recurso escaso dado que la Cyclone 10 LP,
+En concreto el chip FPGA 10CL025YU256C8G dispone de 66 bloques de 9Kbits.
+
 Aquí se puede ver el vídeo en una placa Terasic DE1:
 
 
